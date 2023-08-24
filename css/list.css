@@ -7,7 +7,7 @@
 }
  
 .grid-list-item {
-  display: grid;
+  display: grid;  
   row-gap: var(--row-gap);
   column-gap: var(--col-gap);
 }

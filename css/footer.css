@@ -6,7 +6,7 @@ footer {
 
 .footer-content {
   display: grid;
-  grid-template-areas: "contacts newsletter" "legal legal";
+  grid-template-areas: "contacts newsletter" "legal";
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   gap: var(--gap-xl);

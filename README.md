@@ -189,4 +189,29 @@
         object-position: bottom; <- this options for your layout
       } 
       ```
-    
+  - Useful properties
+    ```
+      - aspect-ratio - is a CSS property that allows you to control the aspect ratio (for video photos)
+      
+      - columns: 2 - separate your content to 2 columns (useful for <p> with text) work independently display flex & grid
+
+      - Custom Propert - how to use:
+      ----------
+      ----------
+      .grid-list {
+        --col-gap: 0;
+      }
+      ----------
+      ----------
+      .grid-list-item {
+        column-gap: var(--col-gap);
+      }
+      ----------
+      ----------
+      .premises-list {
+        --col-gap: var(--gap-sm);
+      }
+
+    - Use :is and :has
+    - white-space
+    ```
